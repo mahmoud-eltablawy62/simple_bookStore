@@ -1,0 +1,17 @@
+C:\Users\CompuMisr\Desktop\Repository_Pattern\Repository_Pattern\Repository_Pattern.EF\bin\Debug\net7.0\Repository_Pattern.EF.deps.json
+C:\Users\CompuMisr\Desktop\Repository_Pattern\Repository_Pattern\Repository_Pattern.EF\bin\Debug\net7.0\Repository_Pattern.EF.runtimeconfig.json
+C:\Users\CompuMisr\Desktop\Repository_Pattern\Repository_Pattern\Repository_Pattern.EF\bin\Debug\net7.0\Repository_Pattern.EF.dll
+C:\Users\CompuMisr\Desktop\Repository_Pattern\Repository_Pattern\Repository_Pattern.EF\bin\Debug\net7.0\Repository_Pattern.EF.pdb
+C:\Users\CompuMisr\Desktop\Repository_Pattern\Repository_Pattern\Repository_Pattern.EF\obj\Debug\net7.0\Repository_Pattern.EF.csproj.AssemblyReference.cache
+C:\Users\CompuMisr\Desktop\Repository_Pattern\Repository_Pattern\Repository_Pattern.EF\obj\Debug\net7.0\Repository_Pattern.EF.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CompuMisr\Desktop\Repository_Pattern\Repository_Pattern\Repository_Pattern.EF\obj\Debug\net7.0\Repository_Pattern.EF.AssemblyInfoInputs.cache
+C:\Users\CompuMisr\Desktop\Repository_Pattern\Repository_Pattern\Repository_Pattern.EF\obj\Debug\net7.0\Repository_Pattern.EF.AssemblyInfo.cs
+C:\Users\CompuMisr\Desktop\Repository_Pattern\Repository_Pattern\Repository_Pattern.EF\obj\Debug\net7.0\Repository_Pattern.EF.csproj.CoreCompileInputs.cache
+C:\Users\CompuMisr\Desktop\Repository_Pattern\Repository_Pattern\Repository_Pattern.EF\obj\Debug\net7.0\Repository_Pattern.EF.dll
+C:\Users\CompuMisr\Desktop\Repository_Pattern\Repository_Pattern\Repository_Pattern.EF\obj\Debug\net7.0\refint\Repository_Pattern.EF.dll
+C:\Users\CompuMisr\Desktop\Repository_Pattern\Repository_Pattern\Repository_Pattern.EF\obj\Debug\net7.0\Repository_Pattern.EF.pdb
+C:\Users\CompuMisr\Desktop\Repository_Pattern\Repository_Pattern\Repository_Pattern.EF\obj\Debug\net7.0\Repository_Pattern.EF.genruntimeconfig.cache
+C:\Users\CompuMisr\Desktop\Repository_Pattern\Repository_Pattern\Repository_Pattern.EF\obj\Debug\net7.0\ref\Repository_Pattern.EF.dll
+C:\Users\CompuMisr\Desktop\Repository_Pattern\Repository_Pattern\Repository_Pattern.EF\bin\Debug\net7.0\Repository_Pattern.core.dll
+C:\Users\CompuMisr\Desktop\Repository_Pattern\Repository_Pattern\Repository_Pattern.EF\bin\Debug\net7.0\Repository_Pattern.core.pdb
+C:\Users\CompuMisr\Desktop\Repository_Pattern\Repository_Pattern\Repository_Pattern.EF\obj\Debug\net7.0\Repository_Pattern.EF.csproj.CopyComplete

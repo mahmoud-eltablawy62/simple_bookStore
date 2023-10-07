@@ -1,0 +1,12 @@
+C:\Users\CompuMisr\Desktop\Repository_Pattern\Repository_Pattern\Repository_Pattern.core\bin\Debug\net7.0\Repository_Pattern.core.deps.json
+C:\Users\CompuMisr\Desktop\Repository_Pattern\Repository_Pattern\Repository_Pattern.core\bin\Debug\net7.0\Repository_Pattern.core.dll
+C:\Users\CompuMisr\Desktop\Repository_Pattern\Repository_Pattern\Repository_Pattern.core\bin\Debug\net7.0\Repository_Pattern.core.pdb
+C:\Users\CompuMisr\Desktop\Repository_Pattern\Repository_Pattern\Repository_Pattern.core\obj\Debug\net7.0\Repository_Pattern.core.csproj.AssemblyReference.cache
+C:\Users\CompuMisr\Desktop\Repository_Pattern\Repository_Pattern\Repository_Pattern.core\obj\Debug\net7.0\Repository_Pattern.core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CompuMisr\Desktop\Repository_Pattern\Repository_Pattern\Repository_Pattern.core\obj\Debug\net7.0\Repository_Pattern.core.AssemblyInfoInputs.cache
+C:\Users\CompuMisr\Desktop\Repository_Pattern\Repository_Pattern\Repository_Pattern.core\obj\Debug\net7.0\Repository_Pattern.core.AssemblyInfo.cs
+C:\Users\CompuMisr\Desktop\Repository_Pattern\Repository_Pattern\Repository_Pattern.core\obj\Debug\net7.0\Repository_Pattern.core.csproj.CoreCompileInputs.cache
+C:\Users\CompuMisr\Desktop\Repository_Pattern\Repository_Pattern\Repository_Pattern.core\obj\Debug\net7.0\Repository_Pattern.core.dll
+C:\Users\CompuMisr\Desktop\Repository_Pattern\Repository_Pattern\Repository_Pattern.core\obj\Debug\net7.0\refint\Repository_Pattern.core.dll
+C:\Users\CompuMisr\Desktop\Repository_Pattern\Repository_Pattern\Repository_Pattern.core\obj\Debug\net7.0\Repository_Pattern.core.pdb
+C:\Users\CompuMisr\Desktop\Repository_Pattern\Repository_Pattern\Repository_Pattern.core\obj\Debug\net7.0\ref\Repository_Pattern.core.dll
