@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Repository_Pattern.core.Interfaces;
+using Repository_Pattern.core;
+using Repository_Pattern.core.consts;
 using Repository_Pattern.core.Models;
 
 namespace ResopositryPatternWithUOW.Api.Controllers
@@ -8,15 +9,45 @@ namespace ResopositryPatternWithUOW.Api.Controllers
     [ApiController]
     public class BookController : ControllerBase
     {
-        private readonly Irepositiry<Book> Book_Repo;
-        public BookController(Irepositiry<Book> repo)
+        private readonly IUnitOfWork UnitOfWork;
+        public BookController(IUnitOfWork _UnitOfWork)
         {
-            Book_Repo = repo;
+            UnitOfWork = _UnitOfWork;
         }
         [HttpGet]
         public IActionResult Get()
         {
-            return Ok(Book_Repo.GetValue(1));
+            return Ok(UnitOfWork.Books.GetValue(1));
+        }
+
+        [HttpGet ("GetAll")]
+        public IActionResult GetAll()
+        {
+            return Ok(UnitOfWork.Books.GetAll());
+        }
+
+        [HttpGet("GetByName")]
+        public IActionResult Getbyname()
+        {
+            return Ok(UnitOfWork.Books.Find(B => B.Tittle == "ummelsarasir" , new[] { "Authors" } ));
+        }
+
+        [HttpGet ("GetAllByName")]
+        public IActionResult GetAllByName()
+        {
+            return Ok(UnitOfWork.Books.FindAll(B => B.Tittle == "ummelsarasir" , new[] { "Authors" } ));
+        }
+        [HttpGet("GetbyOrder")]
+        public IActionResult GetOrder()
+        {
+            return Ok(UnitOfWork.Books.findAll(B => B.Tittle == "ummelsarasir", null, null, b => b.Id,OrderBy.Descending)); 
+        }
+        [HttpPost("AddOne")]
+        public IActionResult Addone()
+        {
+            var book = UnitOfWork.Books.Add(new Book { Tittle="mahmoud/saied" , Auth_Id = 1 });
+            UnitOfWork.Complete();
+            return Ok(book);    
         }
     }
 }

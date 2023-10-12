@@ -11,6 +11,6 @@ namespace Repository_Pattern.core.Models
 
         [ForeignKey("Authors")]
         public int Auth_Id { get; set; }     
-      public Author  Authors { get; set; }
+        public Author  Authors { get; set; }
     }
 }

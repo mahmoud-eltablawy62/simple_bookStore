@@ -1,8 +1,9 @@
 
 using Microsoft.EntityFrameworkCore;
-using Repository_Pattern.core.Interfaces;
+using Repository_Pattern.core;
+
 using Repository_Pattern.EF;
-using Repository_Pattern.EF.Repositries;
+
 namespace ResopositryPatternWithUOW
 {
     public class Program
@@ -20,7 +21,8 @@ namespace ResopositryPatternWithUOW
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
-            builder.Services.AddTransient(typeof(Irepositiry<>), typeof(repositiry<>));
+          //  builder.Services.AddTransient(typeof(Irepositiry<>), typeof(repositiry<>));
+          builder.Services.AddTransient<IUnitOfWork , UnitOfWork>();
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
